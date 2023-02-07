@@ -21,7 +21,6 @@ int main()
     for (auto pair : map_standart)
         std::cout << pair.first << " " << pair.second << std::endl;
 
-
     std::map<int, long long, std::less<int>, MyPoolAllocator<long long>> my_map;
     for (int i = 0; i < 10; ++i)
         my_map[i] = fact(i);
